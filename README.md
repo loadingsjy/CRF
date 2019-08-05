@@ -1,6 +1,6 @@
 # CRF
 Conditional Random Field for POS Tagging (using partial feature optimization)
-# useage
+# usage
 >python run.py -h
 ```
 usage: run.py [-h] [--bigdata] [--anneal] [--regularize] [--seed SEED]
