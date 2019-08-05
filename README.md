@@ -1,5 +1,5 @@
 # CRF
-Conditional Random Field for POS Tagging
+Conditional Random Field for POS Tagging (using partial feature optimization)
 # useage
 >python run.py -h
 ```
@@ -19,7 +19,9 @@ eg: use Simulated annealing and set random seed as 1234 on the big data set
 
 # results
 
-|     | epoch | dev(%) | test(%) | time(s) |
-|:-------:|:-------:|:-------:|:-------:|:--------|
-| small data | 9/15 | 88.86 | 86.47 | 12.39 |
-| big data | 31/42 | 94.29 | 94.03 | 640.14 |
+| data set | anneal | epoch | dev(%) | test(%) | time(s) |
+|:-------:|:-------:|:-------:|:-------:|:--------|:-------:|
+| small | no | 11/17 | 88.88 | 86.49 | 12.76 |
+| small | yes | 9/15 | 88.86 | 86.47 | 12.39 |
+| big | no | 31/42 | 94.29 | 94.03 | 640.14 |
+| big | yes | 31/42 | 94.29 | 94.03 | 640.14 |
