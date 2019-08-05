@@ -19,7 +19,7 @@ eg: use Simulated annealing and set random seed as 1234 on the big data set
 
 # results
 
-| data set | anneal | epoch | dev(%) | test(%) | time(s) |
+| data set | anneal | epoch | dev(%) | test(%) | mT(s) |
 |:-------:|:-------:|:-------:|:-------:|:--------|:-------:|
 | small | no | 11/17 | 88.88 | 86.49 | 12.76 |
 | small | yes | 9/15 | 88.86 | 86.47 | 12.39 |
