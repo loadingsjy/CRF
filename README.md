@@ -6,6 +6,7 @@ python run.py -h <br>
 usage: run.py [-h] [--bigdata] [--anneal] [--regularize] [--seed SEED] <br>
 <br>
 Create Conditional Random Field(CRF) for POS Tagging. <br>
+<br>
 optional arguments: <br>
     -h, --help            show this help message and exit <br>
     --bigdata, -b         use big data <br>
@@ -14,7 +15,7 @@ optional arguments: <br>
     --seed SEED, -s SEED  set the seed for generating random numbers <br>
 <br>
 eg: use Simulated annealing and set random seed as 1234 on the big data set <br>
->>python run.py -b -u -s 1234 <br>
+>python run.py -b -u -s 1234 <br>
 
 # results
 
