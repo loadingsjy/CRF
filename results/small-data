@@ -1,0 +1,252 @@
+Set the seed for generating random numbers to 1000
+
+Loading the dataset...
+         train set has 802 sentences, 20454 words
+         dev set has 1909 sentences, 50319 words
+         test set has 1909 sentences, 50319 words
+
+Creating Conditional Random Field for POS Tagging...
+tags num： 31
+feature space： 67309
+
+start training...
+ues Simulated annealing：initial eta=0.500000
+ epoch：1
+         updated eta: 0.5000
+         data shuffled
+         train precision：19,904 / 20,429 = 97.4301%
+         dev precision：43,797 / 50,304 = 87.0646%
+         this epoch using time ：12.746s
+-------------------------------------------------------------
+ epoch：2
+         updated eta: 0.4800
+         data shuffled
+         train precision：20,262 / 20,429 = 99.1825%
+         dev precision：44,094 / 50,304 = 87.6551%
+         this epoch using time ：13.062s
+-------------------------------------------------------------
+ epoch：3
+         updated eta: 0.4608
+         data shuffled
+         train precision：20,379 / 20,429 = 99.7552%
+         dev precision：44,429 / 50,304 = 88.3210%
+         this epoch using time ：12.732s
+-------------------------------------------------------------
+ epoch：4
+         updated eta: 0.4424
+         data shuffled
+         train precision：20,402 / 20,429 = 99.8678%
+         dev precision：44,520 / 50,304 = 88.5019%
+         this epoch using time ：12.750s
+-------------------------------------------------------------
+ epoch：5
+         updated eta: 0.4247
+         data shuffled
+         train precision：20,422 / 20,429 = 99.9657%
+         dev precision：44,594 / 50,304 = 88.6490%
+         this epoch using time ：12.742s
+-------------------------------------------------------------
+ epoch：6
+         updated eta: 0.4077
+         data shuffled
+         train precision：20,428 / 20,429 = 99.9951%
+         dev precision：44,678 / 50,304 = 88.8160%
+         this epoch using time ：12.721s
+-------------------------------------------------------------
+ epoch：7
+         updated eta: 0.3914
+         data shuffled
+         train precision：20,429 / 20,429 = 100.0000%
+         dev precision：44,682 / 50,304 = 88.8240%
+         this epoch using time ：12.688s
+-------------------------------------------------------------
+ epoch：8
+         updated eta: 0.3757
+         data shuffled
+         train precision：20,429 / 20,429 = 100.0000%
+         dev precision：44,675 / 50,304 = 88.8100%
+         this epoch using time ：12.906s
+-------------------------------------------------------------
+ epoch：9
+         updated eta: 0.3607
+         data shuffled
+         train precision：20,429 / 20,429 = 100.0000%
+         dev precision：44,705 / 50,304 = 88.8697%
+         this epoch using time ：12.818s
+-------------------------------------------------------------
+ epoch：10
+         updated eta: 0.3463
+         data shuffled
+         train precision：20,429 / 20,429 = 100.0000%
+         dev precision：44,691 / 50,304 = 88.8418%
+         this epoch using time ：12.827s
+-------------------------------------------------------------
+ epoch：11
+         updated eta: 0.3324
+         data shuffled
+         train precision：20,429 / 20,429 = 100.0000%
+         dev precision：44,663 / 50,304 = 88.7862%
+         this epoch using time ：12.589s
+-------------------------------------------------------------
+ epoch：12
+         updated eta: 0.3191
+         data shuffled
+         train precision：20,429 / 20,429 = 100.0000%
+         dev precision：44,668 / 50,304 = 88.7961%
+         this epoch using time ：12.565s
+-------------------------------------------------------------
+ epoch：13
+         updated eta: 0.3064
+         data shuffled
+         train precision：20,429 / 20,429 = 100.0000%
+         dev precision：44,684 / 50,304 = 88.8279%
+         this epoch using time ：12.650s
+-------------------------------------------------------------
+ epoch：14
+         updated eta: 0.2941
+         data shuffled
+         train precision：20,429 / 20,429 = 100.0000%
+         dev precision：44,692 / 50,304 = 88.8438%
+         this epoch using time ：12.731s
+-------------------------------------------------------------
+ epoch：15
+         updated eta: 0.2823
+         data shuffled
+         train precision：20,429 / 20,429 = 100.0000%
+         dev precision：44,685 / 50,304 = 88.8299%
+         this epoch using time ：12.961s
+-------------------------------------------------------------
+
+epochs using total times: 15
+average each epoch time 12.765884 s
+epoch  9/15: , maximum dev precision: 88.8697% , train precision: 100.0000%
+
+testing on best model...
+test precision:43,498 / 50,304 = 86.470261%
+total using time：193.592s
+
+
+Set the seed for generating random numbers to 1000
+Loading the dataset...
+	 train set has 802 sentences, 20454 words
+	 dev set has 1909 sentences, 50319 words
+	 test set has 1909 sentences, 50319 words
+Creating Conditional Random Field for POS Tagging...
+tags num： 31
+feature space： 67309
+start training...
+ues Simulated annealing：initial eta=0.500000
+ epoch：1
+ 	 updated eta: 0.5000
+ 	 data shuffled
+ 	 train precision：19,904 / 20,429 = 97.4301%
+ 	 dev precision：43,797 / 50,304 = 87.0646%
+ 	 this epoch using time ：12.48s
+-----------------------------------------------------------
+ epoch：2
+ 	 updated eta: 0.4800
+ 	 data shuffled
+ 	 train precision：20,262 / 20,429 = 99.1825%
+ 	 dev precision：44,094 / 50,304 = 87.6551%
+ 	 this epoch using time ：12.38s
+-----------------------------------------------------------
+ epoch：3
+ 	 updated eta: 0.4608
+ 	 data shuffled
+ 	 train precision：20,379 / 20,429 = 99.7552%
+ 	 dev precision：44,429 / 50,304 = 88.3210%
+ 	 this epoch using time ：12.43s
+-----------------------------------------------------------
+ epoch：4
+ 	 updated eta: 0.4424
+ 	 data shuffled
+ 	 train precision：20,402 / 20,429 = 99.8678%
+ 	 dev precision：44,520 / 50,304 = 88.5019%
+ 	 this epoch using time ：12.41s
+-----------------------------------------------------------
+ epoch：5
+ 	 updated eta: 0.4247
+ 	 data shuffled
+ 	 train precision：20,422 / 20,429 = 99.9657%
+ 	 dev precision：44,594 / 50,304 = 88.6490%
+ 	 this epoch using time ：12.85s
+-----------------------------------------------------------
+ epoch：6
+ 	 updated eta: 0.4077
+ 	 data shuffled
+ 	 train precision：20,428 / 20,429 = 99.9951%
+ 	 dev precision：44,678 / 50,304 = 88.8160%
+ 	 this epoch using time ：12.67s
+-----------------------------------------------------------
+ epoch：7
+ 	 updated eta: 0.3914
+ 	 data shuffled
+ 	 train precision：20,429 / 20,429 = 100.0000%
+ 	 dev precision：44,682 / 50,304 = 88.8240%
+ 	 this epoch using time ：12.46s
+-----------------------------------------------------------
+ epoch：8
+ 	 updated eta: 0.3757
+ 	 data shuffled
+ 	 train precision：20,429 / 20,429 = 100.0000%
+ 	 dev precision：44,675 / 50,304 = 88.8100%
+ 	 this epoch using time ：12.21s
+-----------------------------------------------------------
+ epoch：9
+ 	 updated eta: 0.3607
+ 	 data shuffled
+ 	 train precision：20,429 / 20,429 = 100.0000%
+ 	 dev precision：44,705 / 50,304 = 88.8697%
+ 	 this epoch using time ：12.31s
+-----------------------------------------------------------
+ epoch：10
+ 	 updated eta: 0.3463
+ 	 data shuffled
+ 	 train precision：20,429 / 20,429 = 100.0000%
+ 	 dev precision：44,691 / 50,304 = 88.8418%
+ 	 this epoch using time ：12.31s
+-----------------------------------------------------------
+ epoch：11
+ 	 updated eta: 0.3324
+ 	 data shuffled
+ 	 train precision：20,429 / 20,429 = 100.0000%
+ 	 dev precision：44,663 / 50,304 = 88.7862%
+ 	 this epoch using time ：12.29s
+-----------------------------------------------------------
+ epoch：12
+ 	 updated eta: 0.3191
+ 	 data shuffled
+ 	 train precision：20,429 / 20,429 = 100.0000%
+ 	 dev precision：44,668 / 50,304 = 88.7961%
+ 	 this epoch using time ：12.23s
+-----------------------------------------------------------
+ epoch：13
+ 	 updated eta: 0.3064
+ 	 data shuffled
+ 	 train precision：20,429 / 20,429 = 100.0000%
+ 	 dev precision：44,684 / 50,304 = 88.8279%
+ 	 this epoch using time ：12.23s
+-----------------------------------------------------------
+ epoch：14
+ 	 updated eta: 0.2941
+ 	 data shuffled
+ 	 train precision：20,429 / 20,429 = 100.0000%
+ 	 dev precision：44,692 / 50,304 = 88.8438%
+ 	 this epoch using time ：12.30s
+-----------------------------------------------------------
+ epoch：15
+ 	 updated eta: 0.2823
+ 	 data shuffled
+ 	 train precision：20,429 / 20,429 = 100.0000%
+ 	 dev precision：44,685 / 50,304 = 88.8299%
+ 	 this epoch using time ：12.28s
+-----------------------------------------------------------
+epoch times: 15
+average each epoch time 12.39s
+epoch  9/15: maximum dev precision: 88.8697% , train precision: 100.0000%
+testing on best model...
+test precision:43,498 / 50,304 = 86.470261%
+total using time：0:03:07.746067s
+
+
+
