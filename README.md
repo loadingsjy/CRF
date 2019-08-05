@@ -1,20 +1,20 @@
 # CRF
 Conditional Random Field for POS Tagging
 # useage
-python run.py -h <br>
-<br>
-        usage: run.py [-h] [--bigdata] [--anneal] [--regularize] [--seed SEED] 
-<br>
-        Create Conditional Random Field(CRF) for POS Tagging. 
-<br>
-        optional arguments: 
-        -h, --help            show this help message and exit 
-        --bigdata, -b         use big data 
-        --anneal, -a          use simulated annealing 
-        --regularize, -r      use L2 regularization 
-        --seed SEED, -s SEED  set the seed for generating random numbers 
-<br>
-        eg: use Simulated annealing and set random seed as 1234 on the big data set 
+>python run.py -h
+```
+usage: run.py [-h] [--bigdata] [--anneal] [--regularize] [--seed SEED]
+
+Create Conditional Random Field(CRF) for POS Tagging.
+
+optional arguments:
+  -h, --help            show this help message and exit
+  --bigdata, -b         use big data
+  --anneal, -a          use simulated annealing
+  --regularize, -r      use L2 regularization
+  --seed SEED, -s SEED  set the seed for generating random numbers
+```
+eg: use Simulated annealing and set random seed as 1234 on the big data set 
 >python run.py -b -u -s 1234 <br>
 
 # results
