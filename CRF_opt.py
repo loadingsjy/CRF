@@ -153,14 +153,16 @@ class CRF(object):
         if regularization:
             print("use L2 regularization：C=%f" % c)
         if anneal:
-            print("ues Simulated annealing：initial eta=%f\n" % eta)
+            print("ues Simulated annealing\n")
+        print('initial eta=%f' % eta)
 
         total_time = 0.0
         epoch = 0
         for epoch in range(epochs):
             start = time.time()
             print(' epoch：%d ' % (epoch + 1))
-            print(' \t updated eta: {:.4f}'.format(eta))
+            if anneal:
+                print(' \t updated eta: {:.4f}'.format(eta))
             # _decay *= (1.0 - _eta * _lambda)
             # _gain = _eta / _decay
             # random.seed(iterator + 1)

@@ -57,7 +57,7 @@ if __name__ == '__main__':
     print()
     # profile.run("glm.create_partial_feature_space()")
     crf.SGD_training(config.save_file, config.epochs, config.interval, config.C, config.eta, config.batch_size,
-                     config.shuffle, config.regularization, config.anneal)
+                     config.shuffle, args.regularize, args.anneal)
     # profile.run("crf.SGD_training()")
 
     print("testing on best model...")

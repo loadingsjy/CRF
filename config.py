@@ -19,6 +19,6 @@ class Config(object):
         self.shuffle = True          # 是否打乱数据
         self.regularization = False  # 是否正则化
         self.C = 0.00001             # 正则化系数
-        self.save_file = r'.\save'   # 保存模型数据文件
-        self.anneal = True           # 是否模拟退火
+        self.save_file = r'.\model'   # 保存模型数据文件
+        # self.anneal = True           # 是否模拟退火
         self.epochs = 100            # 迭代次数

@@ -11,308 +11,127 @@ tags num： 35
 feature space： 1400220
 
 start training...
-ues Simulated annealing：initial eta=0.200000
-
+initial eta=0.200000
  epoch：1
-         updated eta: 0.2000
          data shuffled
-         train precision：976,888 / 1,057,935 = 92.3391%
-         dev precision：54,150 / 59,949 = 90.3268%
-         this epoch using time ：645.838s
+         train precision：994,159 / 1,057,935 = 93.9717%
+         dev precision：55,056 / 59,949 = 91.8381%
+         this epoch using time ：651.81s
 -----------------------------------------------------------
  epoch：2
-         updated eta: 0.1920
          data shuffled
-         train precision：1,007,963 / 1,057,935 = 95.2765%
-         dev precision：55,362 / 59,949 = 92.3485%
-         this epoch using time ：647.325s
+         train precision：1,002,133 / 1,057,935 = 94.7254%
+         dev precision：55,071 / 59,949 = 91.8631%
+         this epoch using time ：656.10s
 -----------------------------------------------------------
  epoch：3
-         updated eta: 0.1843
          data shuffled
-         train precision：1,021,756 / 1,057,935 = 96.5802%
-         dev precision：55,873 / 59,949 = 93.2009%
-         this epoch using time ：651.322s
+         train precision：1,014,189 / 1,057,935 = 95.8650%
+         dev precision：55,445 / 59,949 = 92.4869%
+         this epoch using time ：663.28s
 -----------------------------------------------------------
  epoch：4
-         updated eta: 0.1769
          data shuffled
-         train precision：1,031,333 / 1,057,935 = 97.4855%
-         dev precision：56,189 / 59,949 = 93.7280%
-         this epoch using time ：648.478s
+         train precision：1,029,437 / 1,057,935 = 97.3063%
+         dev precision：56,074 / 59,949 = 93.5362%
+         this epoch using time ：650.26s
 -----------------------------------------------------------
  epoch：5
-         updated eta: 0.1699
          data shuffled
-         train precision：1,029,536 / 1,057,935 = 97.3156%
-         dev precision：55,969 / 59,949 = 93.3610%
-         this epoch using time ：636.428s
+         train precision：1,028,429 / 1,057,935 = 97.2110%
+         dev precision：55,935 / 59,949 = 93.3043%
+         this epoch using time ：673.52s
 -----------------------------------------------------------
  epoch：6
-         updated eta: 0.1631
          data shuffled
-         train precision：1,037,771 / 1,057,935 = 98.0940%
-         dev precision：56,191 / 59,949 = 93.7313%
-         this epoch using time ：656.507s
+         train precision：1,010,233 / 1,057,935 = 95.4910%
+         dev precision：54,922 / 59,949 = 91.6145%
+         this epoch using time ：673.12s
 -----------------------------------------------------------
  epoch：7
-         updated eta: 0.1566
          data shuffled
-         train precision：1,040,449 / 1,057,935 = 98.3472%
-         dev precision：56,396 / 59,949 = 94.0733%
-         this epoch using time ：651.085s
+         train precision：1,038,566 / 1,057,935 = 98.1692%
+         dev precision：56,209 / 59,949 = 93.7614%
+         this epoch using time ：721.61s
 -----------------------------------------------------------
  epoch：8
-         updated eta: 0.1503
          data shuffled
-         train precision：1,043,281 / 1,057,935 = 98.6148%
-         dev precision：56,353 / 59,949 = 94.0016%
-         this epoch using time ：641.612s
+         train precision：1,040,915 / 1,057,935 = 98.3912%
+         dev precision：56,268 / 59,949 = 93.8598%
+         this epoch using time ：679.13s
 -----------------------------------------------------------
  epoch：9
-         updated eta: 0.1443
          data shuffled
-         train precision：1,044,478 / 1,057,935 = 98.7280%
-         dev precision：56,333 / 59,949 = 93.9682%
-         this epoch using time ：635.254s
+         train precision：1,038,906 / 1,057,935 = 98.2013%
+         dev precision：56,082 / 59,949 = 93.5495%
+         this epoch using time ：661.31s
 -----------------------------------------------------------
  epoch：10
-         updated eta: 0.1385
          data shuffled
-         train precision：1,038,094 / 1,057,935 = 98.1246%
-         dev precision：55,990 / 59,949 = 93.3961%
-         this epoch using time ：634.354s
+         train precision：1,042,540 / 1,057,935 = 98.5448%
+         dev precision：56,174 / 59,949 = 93.7030%
+         this epoch using time ：674.48s
 -----------------------------------------------------------
  epoch：11
-         updated eta: 0.1330
          data shuffled
-         train precision：1,044,739 / 1,057,935 = 98.7527%
-         dev precision：56,251 / 59,949 = 93.8314%
-         this epoch using time ：638.029s
+         train precision：1,039,990 / 1,057,935 = 98.3038%
+         dev precision：55,989 / 59,949 = 93.3944%
+         this epoch using time ：677.02s
 -----------------------------------------------------------
  epoch：12
-         updated eta: 0.1277
          data shuffled
-         train precision：1,046,415 / 1,057,935 = 98.9111%
-         dev precision：56,377 / 59,949 = 94.0416%
-         this epoch using time ：644.937s
+         train precision：1,042,311 / 1,057,935 = 98.5232%
+         dev precision：56,246 / 59,949 = 93.8231%
+         this epoch using time ：689.38s
 -----------------------------------------------------------
  epoch：13
-         updated eta: 0.1225
          data shuffled
-         train precision：1,048,567 / 1,057,935 = 99.1145%
-         dev precision：56,406 / 59,949 = 94.0900%
-         this epoch using time ：649.961s
+         train precision：1,045,772 / 1,057,935 = 98.8503%
+         dev precision：56,244 / 59,949 = 93.8197%
+         this epoch using time ：685.97s
 -----------------------------------------------------------
  epoch：14
-         updated eta: 0.1176
          data shuffled
-         train precision：1,033,293 / 1,057,935 = 97.6707%
-         dev precision：55,761 / 59,949 = 93.0141%
-         this epoch using time ：648.295s
+         train precision：1,018,718 / 1,057,935 = 96.2931%
+         dev precision：55,060 / 59,949 = 91.8447%
+         this epoch using time ：663.29s
 -----------------------------------------------------------
  epoch：15
-         updated eta: 0.1129
          data shuffled
-         train precision：1,049,948 / 1,057,935 = 99.2450%
-         dev precision：56,396 / 59,949 = 94.0733%
-         this epoch using time ：633.910s
+         train precision：1,030,550 / 1,057,935 = 97.4115%
+         dev precision：55,530 / 59,949 = 92.6287%
+         this epoch using time ：663.46s
 -----------------------------------------------------------
  epoch：16
-         updated eta: 0.1084
          data shuffled
-         train precision：1,050,508 / 1,057,935 = 99.2980%
-         dev precision：56,385 / 59,949 = 94.0549%
-         this epoch using time ：635.518s
+         train precision：1,036,229 / 1,057,935 = 97.9483%
+         dev precision：55,972 / 59,949 = 93.3660%
+         this epoch using time ：666.91s
 -----------------------------------------------------------
  epoch：17
-         updated eta: 0.1041
          data shuffled
-         train precision：1,050,773 / 1,057,935 = 99.3230%
-         dev precision：56,425 / 59,949 = 94.1217%
-         this epoch using time ：635.040s
+         train precision：1,043,483 / 1,057,935 = 98.6339%
+         dev precision：56,081 / 59,949 = 93.5478%
+         this epoch using time ：668.83s
 -----------------------------------------------------------
  epoch：18
-         updated eta: 0.0999
          data shuffled
-         train precision：1,045,068 / 1,057,935 = 98.7838%
-         dev precision：56,216 / 59,949 = 93.7730%
-         this epoch using time ：632.002s
+         train precision：1,042,096 / 1,057,935 = 98.5028%
+         dev precision：56,051 / 59,949 = 93.4978%
+         this epoch using time ：660.33s
 -----------------------------------------------------------
  epoch：19
-         updated eta: 0.0959
          data shuffled
-         train precision：1,050,761 / 1,057,935 = 99.3219%
-         dev precision：56,488 / 59,949 = 94.2268%
-         this epoch using time ：639.567s
------------------------------------------------------------
- epoch：20
-         updated eta: 0.0921
-         data shuffled
-         train precision：1,052,050 / 1,057,935 = 99.4437%
-         dev precision：56,427 / 59,949 = 94.1250%
-         this epoch using time ：633.796s
------------------------------------------------------------
- epoch：21
-         updated eta: 0.0884
-         data shuffled
-         train precision：1,051,776 / 1,057,935 = 99.4178%
-         dev precision：56,458 / 59,949 = 94.1767%
-         this epoch using time ：625.732s
------------------------------------------------------------
- epoch：22
-         updated eta: 0.0849
-         data shuffled
-         train precision：1,052,430 / 1,057,935 = 99.4796%
-         dev precision：56,425 / 59,949 = 94.1217%
-         this epoch using time ：628.637s
------------------------------------------------------------
- epoch：23
-         updated eta: 0.0815
-         data shuffled
-         train precision：1,051,659 / 1,057,935 = 99.4068%
-         dev precision：56,447 / 59,949 = 94.1584%
-         this epoch using time ：633.938s
------------------------------------------------------------
- epoch：24
-         updated eta: 0.0782
-         data shuffled
-         train precision：1,052,786 / 1,057,935 = 99.5133%
-         dev precision：56,494 / 59,949 = 94.2368%
-         this epoch using time ：637.785s
------------------------------------------------------------
- epoch：25
-         updated eta: 0.0751
-         data shuffled
-         train precision：1,052,888 / 1,057,935 = 99.5229%
-         dev precision：56,452 / 59,949 = 94.1667%
-         this epoch using time ：633.519s
------------------------------------------------------------
- epoch：26
-         updated eta: 0.0721
-         data shuffled
-         train precision：1,052,100 / 1,057,935 = 99.4485%
-         dev precision：56,417 / 59,949 = 94.1083%
-         this epoch using time ：623.319s
------------------------------------------------------------
- epoch：27
-         updated eta: 0.0692
-         data shuffled
-         train precision：1,052,772 / 1,057,935 = 99.5120%
-         dev precision：56,486 / 59,949 = 94.2234%
-         this epoch using time ：637.202s
------------------------------------------------------------
- epoch：28
-         updated eta: 0.0664
-         data shuffled
-         train precision：1,053,118 / 1,057,935 = 99.5447%
-         dev precision：56,440 / 59,949 = 94.1467%
-         this epoch using time ：654.247s
------------------------------------------------------------
- epoch：29
-         updated eta: 0.0638
-         data shuffled
-         train precision：1,052,910 / 1,057,935 = 99.5250%
-         dev precision：56,462 / 59,949 = 94.1834%
-         this epoch using time ：655.813s
------------------------------------------------------------
- epoch：30
-         updated eta: 0.0612
-         data shuffled
-         train precision：1,053,160 / 1,057,935 = 99.5486%
-         dev precision：56,474 / 59,949 = 94.2034%
-         this epoch using time ：648.379s
------------------------------------------------------------
- epoch：31
-         updated eta: 0.0588
-         data shuffled
-         train precision：1,052,983 / 1,057,935 = 99.5319%
-         dev precision：56,528 / 59,949 = 94.2935%
-         this epoch using time ：652.779s
------------------------------------------------------------
- epoch：32
-         updated eta: 0.0564
-         data shuffled
-         train precision：1,052,520 / 1,057,935 = 99.4882%
-         dev precision：56,446 / 59,949 = 94.1567%
-         this epoch using time ：641.830s
------------------------------------------------------------
- epoch：33
-         updated eta: 0.0542
-         data shuffled
-         train precision：1,053,144 / 1,057,935 = 99.5471%
-         dev precision：56,513 / 59,949 = 94.2685%
-         this epoch using time ：643.779s
------------------------------------------------------------
- epoch：34
-         updated eta: 0.0520
-         data shuffled
-         train precision：1,053,376 / 1,057,935 = 99.5691%
-         dev precision：56,455 / 59,949 = 94.1717%
-         this epoch using time ：647.688s
------------------------------------------------------------
- epoch：35
-         updated eta: 0.0499
-         data shuffled
-         train precision：1,053,206 / 1,057,935 = 99.5530%
-         dev precision：56,477 / 59,949 = 94.2084%
-         this epoch using time ：647.405s
------------------------------------------------------------
- epoch：36
-         updated eta: 0.0479
-         data shuffled
-         train precision：1,053,388 / 1,057,935 = 99.5702%
-         dev precision：56,488 / 59,949 = 94.2268%
-         this epoch using time ：640.559s
------------------------------------------------------------
- epoch：37
-         updated eta: 0.0460
-         data shuffled
-         train precision：1,053,456 / 1,057,935 = 99.5766%
-         dev precision：56,501 / 59,949 = 94.2484%
-         this epoch using time ：635.175s
------------------------------------------------------------
- epoch：38
-         updated eta: 0.0442
-         data shuffled
-         train precision：1,053,339 / 1,057,935 = 99.5656%
-         dev precision：56,454 / 59,949 = 94.1700%
-         this epoch using time ：640.607s
------------------------------------------------------------
- epoch：39
-         updated eta: 0.0424
-         data shuffled
-         train precision：1,053,553 / 1,057,935 = 99.5858%
-         dev precision：56,463 / 59,949 = 94.1851%
-         this epoch using time ：630.412s
------------------------------------------------------------
- epoch：40
-         updated eta: 0.0407
-         data shuffled
-         train precision：1,053,510 / 1,057,935 = 99.5817%
-         dev precision：56,484 / 59,949 = 94.2201%
-         this epoch using time ：623.988s
------------------------------------------------------------
- epoch：41
-         updated eta: 0.0391
-         data shuffled
-         train precision：1,053,448 / 1,057,935 = 99.5759%
-         dev precision：56,486 / 59,949 = 94.2234%
-         this epoch using time ：626.752s
------------------------------------------------------------
- epoch：42
-         updated eta: 0.0375
-         data shuffled
-         train precision：1,053,554 / 1,057,935 = 99.5859%
-         dev precision：56,456 / 59,949 = 94.1734%
-         this epoch using time ：637.457s
+         train precision：1,030,407 / 1,057,935 = 97.3979%
+         dev precision：55,704 / 59,949 = 92.9190%
+         this epoch using time ：662.82s
 -----------------------------------------------------------
 
-epoch times: 42
-average each epoch time 640.149108 s
-epoch 31/42: maximum dev precision: 94.2935% , train precision: 99.5319%
+epoch times: 19
+average each epoch time 670.66s
+epoch 8/19: maximum dev precision: 93.8598% , train precision: 98.3912%
 
 testing on best model...
-test precision:76,687 / 81,554 = 94.032175%
+test precision:76,362 / 81,554 = 93.633666%
 
-total using time：26899.388s
+total using time：3:32:35.610030
